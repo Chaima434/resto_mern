@@ -1,0 +1,270 @@
+body{
+  
+  height: 100% !important;
+  background: #f6f6f6;
+}
+
+
+.App {
+  text-align: center;
+  margin: 0px  3%;
+  scroll-behavior: smooth;
+  font-family: 'Gayathri', sans-serif;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background-color: black;
+  color: white;
+}
+.quantityHeader{
+  padding: 0px 5px 0px 5px;
+}
+
+Link{
+  color:white;
+}
+
+.cart_badge{
+  background-color: green;
+  color : white;
+  padding : 0px 5px 0px 5px;
+  
+}
+.menuui{
+  background-color: black;
+}
+
+.cardFood{
+  margin-top: 10px;
+  padding: 4px;
+  background:#fff;
+  border:0px;
+  border-radius: 0px;
+
+  
+}
+
+
+.cardFood:hover{
+  margin-top: 10px;
+  padding: 4px;
+  background:#fff;
+  border:0px;
+  border-radius: 0px;
+  box-shadow: #ccc 2px 2px 5px 5px; 
+ 
+  
+}
+
+a:hover{
+  text-decoration: none;
+  
+}
+.cartButton{
+  background: #444;
+  color: #EEE;
+  border:0px;
+  width:100%;
+  opacity:1;
+}
+
+.cartButton:hover{
+  border:0.5px solid black;
+  color:#111;
+  background: white;
+  opacity:1;
+}
+
+.pricetag{
+  
+  text-align: center;
+  font-weight: bold;
+}
+
+.cardCategory{
+
+  margin : 10px auto;
+  padding: -14px;
+  background: #fff;
+  border : 0px;
+  border-radius: 0px;
+}
+
+.cardCategory:hover{
+  
+  margin : 10px auto;
+  padding: -14px;
+  background: #fff;
+  border : 0px;
+  border-radius: 0px;
+  box-shadow: #ccc 2px 2px 5px 5px;  
+}
+
+
+.cardCategoryRow{
+
+  margin : 10px auto;
+  padding: 10px;
+  background: #fff;
+  border : 0px;
+  border-radius: 0px;
+}
+
+.cardCategoryRow:hover{
+  
+  margin : 10px auto;
+  padding: 10px;
+  background: #fff;
+  border : 0px;
+  border-radius: 0px;
+  box-shadow: #ccc 2px 2px 5px 5px;  
+}
+
+.image_row_new{
+  width:85px;
+  height:85px;
+}
+
+.link_title_row{
+  text-decoration: #425858;
+  color:#55525f;
+  font-weight: bold;
+}
+.form_container{
+width: 350px;
+margin:auto;
+}
+
+.link_title{
+  color:black;
+}
+
+.image_new{
+width:200px;height:150px;
+margin-top: 10px;
+}
+
+.cart_image{
+  width:70px;
+  height:70px;
+  margin:5px;
+}
+.nav-links{
+  list-style: none;
+width: 50%;
+display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+}
+
+.parent{
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height:100%;
+}
+
+.cartButton_new{
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+   display:flex;
+    
+}
+
+@media (max-width: 480px) {
+  #main_heading {
+    width: 100vw;
+    height:50vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0,0,0,0.8)),url('images/restaurant/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+
+
+  .App{
+    text-align: center;
+    margin: 0px  auto;
+    scroll-behavior: smooth;
+    font-family: 'Gayathri', sans-serif;
+  
+  }
+}
+@media (min-width: 481px) {
+ 
+  
+  #main_heading {
+    background-color: rgba(red, green, blue, 0.2);
+    height:80vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.8)),url('images/restaurant/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.exploreButton{
+  justify-content: center;
+  background: #1e1631;
+  border:0.5px solid #111;
+  margin:10px auto;
+  padding:auto 15px;
+}
+.exploreButton:hover{
+  background: #8980ad;
+  flex:0.2;
+  border:0.5px solid rgb(229, 224, 240);
+}
+
+.cartButtonsChange{
+  justify-content: center;
+  background: #1e1631;
+  border:0.5px solid #111;
+  
+}
+.cartButtonsChange:hover{
+  
+  justify-content: center;
+  background: #1e1631;
+  border:0.5px solid #111;
+}
+.headerOne{
+  color:#EEE;
+}
+
+.filters{
+  margin-top: 10%;
+}
+
+
+.item_delete{
+}
+.item_delete:hover{
+  transform: rotate(1deg) scale(1.3);
+}
+.section_main{
+        
+}
